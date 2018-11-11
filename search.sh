@@ -56,7 +56,6 @@ Find_directory()
 #the shell starting from here
 if [ -d $1 ]
 then
-	echo $1
 	Find_directory "$1" "$2"
 elif [ -f $1 ]
 then
