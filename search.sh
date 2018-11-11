@@ -69,5 +69,5 @@ if [ $count == 0 ]
 then 
 	echo "!!!!!!!!NOTHING FIND"
 fi
-echo "=====FIND all($count)===="
+echo "=====FIND all($count files)===="
 echo "=====END============="
